@@ -27,19 +27,30 @@ Laurelite Importation Hub
 
 ⸻
 
-## Table of Contents
+Table of Contents
 
-- [Project Overview](#project-overview)
-- [Project Motivation](#project-motivation)
-- [Key Features](#key-features)
-- [Technology Stack](#technology-stack)
-- [System Architecture](#system-architecture)
-- [Deployment and Infrastructure](#deployment-and-infrastructure)
-- [Security](#security)
-- [Documentation](#documentation)
-- [Future Development](#future-development)
-- [Live Application](#live-application)
-- [Author's Note](#authors-note)
+* Project Overview
+* Project Motivation
+* Key Features
+    * Customer Experience
+    * Payment and Wallet System
+    * Administration
+    * Real-Time Communication
+* Technology Stack
+    * Frontend
+    * Backend and Database
+    * Authentication, Payments and Integrations
+    * Cloud Infrastructure and DevOps
+    * SEO and Search Visibility
+    * Technology Summary
+* System Architecture
+* Deployment and Infrastructure
+* Security
+* Documentation
+* Future Development
+* Live Application
+* Author’s Note
+
 ⸻
 
 Project Overview
@@ -247,7 +258,7 @@ Chapter	Documentation
 
 Documentation Navigation
 
-Previous	Next
+Previous Chapter	Next Chapter
 Chapter 01	Chapter 02
 Chapter 02	Chapter 03
 Chapter 03	Chapter 04
