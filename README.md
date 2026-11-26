@@ -27,20 +27,19 @@ Laurelite Importation Hub
 
 ⸻
 
-Table of Contents
+## Table of Contents
 
-* Project Overview
-* Project Motivation
-* Key Features
-* Technology Stack
-* System Architecture
-* Deployment and Infrastructure
-* Security
-* Documentation
-* Future Development
-* Live Application
-* Author’s Note
-
+- [Project Overview](#project-overview)
+- [Project Motivation](#project-motivation)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [System Architecture](#system-architecture)
+- [Deployment and Infrastructure](#deployment-and-infrastructure)
+- [Security](#security)
+- [Documentation](#documentation)
+- [Future Development](#future-development)
+- [Live Application](#live-application)
+- [Author's Note](#authors-note)
 ⸻
 
 Project Overview
