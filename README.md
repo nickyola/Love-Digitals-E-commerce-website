@@ -4,52 +4,55 @@ Laurelite Importation Hub
   <strong>A modern, responsive e-commerce platform built to make online shopping easier and more accessible.</strong>
 </p>
 <p align="center">
-  <a href="https://lovedigitals.online">Live Website</a> ·
-  <a href="#documentation">Documentation</a> ·
+  <a href="https://lovedigitals.online">🌐 Live Website</a> ·
+  <a href="#key-features">Key Features</a> ·
   <a href="#technology-stack">Technology Stack</a> ·
-  <a href="#project-overview">Project Overview</a>
+  <a href="#system-architecture">System Architecture</a> ·
+  <a href="#project-documentation">Documentation</a>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vite-Build_Tool-646CFF?logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-Backend-339933?logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-Framework-000000?logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-Build_Tool-646CFF?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-Framework-000000?logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=white" alt="AWS" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Paystack-Payments-00C3F7" />
-  <img src="https://img.shields.io/badge/Cloudinary-Media_Storage-3448C5?logo=cloudinary&logoColor=white" />
-  <img src="https://img.shields.io/badge/Socket.IO-Realtime-010101?logo=socketdotio&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-Version_Control-F05032?logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Paystack-Payments-00C3F7" alt="Paystack" />
+  <img src="https://img.shields.io/badge/Cloudinary-Media_Storage-3448C5?logo=cloudinary&logoColor=white" alt="Cloudinary" />
+  <img src="https://img.shields.io/badge/Socket.IO-Realtime-010101?logo=socketdotio&logoColor=white" alt="Socket.IO" />
+  <img src="https://img.shields.io/badge/Git-Version_Control-F05032?logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white" alt="GitHub" />
 </p>
 
 ⸻
 
 Table of Contents
 
-* Project Overview
-* Project Motivation
-* Key Features
+Use the links below to jump directly to any section.
+
+1. Project Overview
+2. Project Motivation
+3. Key Features
     * Customer Experience
     * Payment and Wallet System
     * Administration
     * Real-Time Communication
-* Technology Stack
+4. Technology Stack
     * Frontend
     * Backend and Database
     * Authentication, Payments and Integrations
     * Cloud Infrastructure and DevOps
     * SEO and Search Visibility
     * Technology Summary
-* System Architecture
-* Deployment and Infrastructure
-* Security
-* Documentation
-* Future Development
-* Live Application
-* Author’s Note
+5. System Architecture
+6. Deployment and Infrastructure
+7. Security
+8. Project Documentation
+9. Future Development
+10. Live Application
+11. Author’s Note
 
 ⸻
 
@@ -59,7 +62,13 @@ Laurelite Importation Hub is a full-stack e-commerce platform I designed and dev
 
 The platform combines a retail shopping experience with the foundation for a broader multi-vendor marketplace.
 
-It is built with React and Vite on the frontend, Node.js and Express on the backend, and MongoDB for data management. The application is deployed on AWS infrastructure and uses integrated services for payments, authentication, media storage and real-time communication.
+Built with React and Vite on the frontend, Node.js and Express on the backend, and MongoDB for data management, the application is deployed on AWS infrastructure and integrates services for payments, authentication, media storage and real-time communication.
+
+My goal was to build a practical, scalable foundation that can support a growing online shopping business while providing customers with a smooth and responsive experience.
+
+↑ Back to Table of Contents
+
+⸻
 
 Project Motivation
 
@@ -67,11 +76,26 @@ I wanted to build something beyond another ordinary e-commerce website.
 
 Many online shopping platforms follow similar layouts and experiences. I wanted to create a platform with its own identity, a responsive interface and practical features that make shopping easier for customers.
 
-The development process challenged me across frontend engineering, backend development, database design, payment integration, cloud infrastructure, deployment and production troubleshooting.
+The development process challenged me across several areas of software engineering, including:
 
-This project represents my journey of turning an idea into a deployed application.
+* Frontend engineering and responsive interface development.
+* Backend development and REST API design.
+* Database architecture and data modelling.
+* Authentication and application security.
+* Payment gateway and wallet integration.
+* Real-time communication.
+* Cloud infrastructure and AWS deployment.
+* Production troubleshooting and maintenance.
+
+From the first stages of development to deploying the application, this project has been a practical journey of learning, problem-solving and turning an idea into a working product.
+
+↑ Back to Table of Contents
+
+⸻
 
 Key Features
+
+Laurelite Importation Hub brings together customer shopping functionality, payment processing, wallet management and administrative operations.
 
 Customer Experience
 
@@ -90,14 +114,20 @@ Customer Experience
 Payment and Wallet System
 
 * Paystack payment integration.
-* Wallet funding and balance verification.
+* Wallet creation and funding.
+* Wallet balance verification.
 * Wallet-based order checkout.
 * Transaction history.
 * Administrative wallet management.
 * Refund processing through supported payment methods.
-* Payment webhook verification and transaction safeguards.
+* Payment webhook signature verification.
+* Transaction safeguards and idempotency handling.
+
+Production testing: The payment and wallet routes and flows have been tested end-to-end in the production environment.
 
 Administration
+
+The administrative functionality provides tools for managing important platform operations, including:
 
 * Administrative dashboard.
 * Product and category management.
@@ -106,7 +136,8 @@ Administration
 * Cancellation and refund management.
 * Wallet administration.
 * Reports and activity records.
-* Store settings and customer support management.
+* Store settings.
+* Customer support management.
 
 Real-Time Communication
 
@@ -115,60 +146,108 @@ Real-Time Communication
 * Online-user tracking.
 * Customer and administrator communication.
 
+↑ Back to Table of Contents
+
+⸻
+
 Technology Stack
+
+The platform uses a combination of frontend, backend, database, cloud and third-party technologies.
 
 Frontend
 
 <p>
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3" />
 </p>
+
+* React
+* Vite
+* JavaScript
+* CSS
+* React Router DOM
+* React Context API
+* React Icons
 
 Backend and Database
 
 <p>
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Mongoose-880000" />
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Mongoose-880000" alt="Mongoose" />
 </p>
+
+* Node.js
+* Express.js
+* MongoDB Atlas
+* Mongoose
+* REST API architecture
 
 Authentication, Payments and Integrations
 
 <p>
-  <img src="https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_OAuth-4285F4?logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Paystack-00C3F7" />
-  <img src="https://img.shields.io/badge/Cloudinary-3448C5?logo=cloudinary&logoColor=white" />
-  <img src="https://img.shields.io/badge/Socket.IO-010101?logo=socketdotio&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nodemailer-22A699" />
-  <img src="https://img.shields.io/badge/Mailtrap-Testing-22A699" />
+  <img src="https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/Google_OAuth-4285F4?logo=google&logoColor=white" alt="Google OAuth" />
+  <img src="https://img.shields.io/badge/Paystack-00C3F7" alt="Paystack" />
+  <img src="https://img.shields.io/badge/Cloudinary-3448C5?logo=cloudinary&logoColor=white" alt="Cloudinary" />
+  <img src="https://img.shields.io/badge/Socket.IO-010101?logo=socketdotio&logoColor=white" alt="Socket.IO" />
+  <img src="https://img.shields.io/badge/Nodemailer-22A699" alt="Nodemailer" />
+  <img src="https://img.shields.io/badge/Mailtrap-Testing-22A699" alt="Mailtrap" />
 </p>
+
+* JSON Web Tokens (JWT)
+* bcryptjs
+* Google OAuth
+* Paystack
+* Cloudinary
+* Socket.IO
+* Nodemailer
+* Mailtrap for email testing
 
 Cloud Infrastructure and DevOps
 
 <p>
-  <img src="https://img.shields.io/badge/AWS_EC2-FF9900?logo=amazonec2&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS_VPC-232F3E?logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/PM2-2B037A" />
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/MobaXterm-SSH-444444" />
-  <img src="https://img.shields.io/badge/Certbot-003A70" />
-  <img src="https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS_EC2-FF9900?logo=amazonec2&logoColor=white" alt="AWS EC2" />
+  <img src="https://img.shields.io/badge/AWS_VPC-232F3E?logo=amazonaws&logoColor=white" alt="AWS VPC" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" alt="Ubuntu" />
+  <img src="https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://img.shields.io/badge/PM2-2B037A" alt="PM2" />
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/MobaXterm-SSH-444444" alt="MobaXterm" />
+  <img src="https://img.shields.io/badge/Certbot-003A70" alt="Certbot" />
+  <img src="https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white" alt="Datadog" />
 </p>
+
+* Amazon Web Services (AWS)
+* EC2
+* Virtual Private Cloud (VPC)
+* Security Groups
+* Ubuntu
+* Nginx
+* PM2
+* Git and GitHub
+* MobaXterm
+* Certbot and Let’s Encrypt
+* Datadog
 
 SEO and Search Visibility
 
 <p>
-  <img src="https://img.shields.io/badge/Google_Search_Console-458CF5?logo=googlesearchconsole&logoColor=white" />
-  <img src="https://img.shields.io/badge/XML-Sitemap-orange" />
-  <img src="https://img.shields.io/badge/SEO-Technical_SEO-4285F4" />
+  <img src="https://img.shields.io/badge/Google_Search_Console-458CF5?logo=googlesearchconsole&logoColor=white" alt="Google Search Console" />
+  <img src="https://img.shields.io/badge/XML-Sitemap-orange" alt="XML Sitemap" />
+  <img src="https://img.shields.io/badge/SEO-Technical_SEO-4285F4" alt="Technical SEO" />
 </p>
+
+* Search engine metadata.
+* Canonical URL configuration.
+* Open Graph metadata.
+* robots.txt.
+* sitemap.xml.
+* Google Search Console.
 
 Technology Summary
 
@@ -188,29 +267,61 @@ Monitoring	Datadog
 Version Control	Git, GitHub
 SEO	Google Search Console, metadata, robots.txt, sitemap.xml
 
+↑ Back to Table of Contents
+
+⸻
+
 System Architecture
 
-The application follows a client-server architecture.
+Laurelite Importation Hub follows a client-server architecture in which the frontend communicates with the backend through API requests.
 
-* Frontend: React application built with Vite.
-* Backend: REST API developed with Node.js and Express.
-* Database: MongoDB Atlas with Mongoose models.
-* Authentication: JWT-based authentication and Google OAuth.
-* Payments: Paystack integration.
-* Media: Cloudinary.
-* Real-time services: Socket.IO.
-* Hosting: Separate AWS EC2 instances for the frontend and backend.
-* Web server: Nginx.
-* Process management: PM2.
+Architecture Components
+
+Component	Technology	Responsibility
+Frontend	React and Vite	User interface and client-side application
+Backend	Node.js and Express	Business logic and API operations
+Database	MongoDB Atlas	Application data storage
+Authentication	JWT and Google OAuth	User identity and access
+Payments	Paystack	Payment processing
+Media Storage	Cloudinary	Image and media management
+Real-Time Services	Socket.IO	Real-time communication
+Web Server	Nginx	Frontend delivery and server configuration
+Process Manager	PM2	Backend process management
+Hosting	AWS EC2	Application infrastructure
+
+High-Level Architecture Diagram
+
+flowchart TD
+    A[Customer / Administrator] --> B[React + Vite Frontend]
+    B --> C[HTTPS API Requests]
+    C --> D[Node.js + Express Backend]
+    D --> E[(MongoDB Atlas)]
+    D --> F[Paystack]
+    D --> G[Cloudinary]
+    D --> H[Socket.IO]
+    I[AWS EC2 - Frontend] --> B
+    J[AWS EC2 - Backend] --> D
+    K[Nginx] --> I
+    L[PM2] --> J
+
+The frontend and backend are hosted on separate AWS EC2 instances, while MongoDB Atlas provides the managed database service.
+
+↑ Back to Table of Contents
+
+⸻
 
 Deployment and Infrastructure
 
-The application is deployed on Amazon Web Services.
+The application is deployed on Amazon Web Services (AWS).
+
+The production environment uses separate EC2 instances for the frontend and backend, allowing both application components to run independently.
+
+Production Infrastructure
 
 The production setup includes:
 
 * AWS EC2 instances.
-* Custom VPC and security group configuration.
+* Custom VPC and Security Group configuration.
 * Ubuntu server environments.
 * Nginx for frontend delivery and reverse proxy configuration.
 * PM2 for backend process management.
@@ -220,12 +331,33 @@ The production setup includes:
 
 Production URLs
 
-* Website: https://lovedigitals.online
-* API: https://api.lovedigitals.online
+Component	URL
+Live Website	https://lovedigitals.online
+Backend API	https://api.lovedigitals.online
+
+Deployment Approach
+
+The deployment workflow involved:
+
+1. Preparing the frontend production build.
+2. Configuring the AWS server environments.
+3. Deploying the frontend application.
+4. Deploying and running the backend API.
+5. Connecting the backend to MongoDB Atlas.
+6. Configuring domain names and DNS records.
+7. Setting up HTTPS certificates.
+8. Managing the backend process with PM2.
+9. Verifying the production application and its integrations.
+
+Git and GitHub are used for source control and tracking development changes. A fully automated CI/CD pipeline is not being presented as an operational feature in this documentation.
+
+↑ Back to Table of Contents
+
+⸻
 
 Security
 
-Security considerations were incorporated throughout development.
+Security considerations were incorporated throughout the development of Laurelite Importation Hub.
 
 Some of the implemented measures include:
 
@@ -240,57 +372,96 @@ Some of the implemented measures include:
 * Paystack webhook signature verification.
 * Payment verification and idempotency safeguards.
 
-Documentation
+The backend is responsible for enforcing access permissions on protected operations. Frontend route protection complements these backend controls.
 
-The technical documentation explains how I planned, designed, developed, deployed and maintained the application.
+Security remains an ongoing responsibility as the platform evolves and additional functionality is introduced.
 
-Chapter	Documentation
-01	Project Overview
-02	Business Requirements and Functional Features
-03	System Architecture and Technology Stack
-04	Frontend Architecture and Responsive Design
-05	Backend Architecture and API Structure
-06	Database Architecture and Data Models
-07	Authentication, Authorisation and Security
-08	Payments, Wallet System and Refund Management
-09	Deployment, AWS Infrastructure and CI/CD
-10	SEO, Search Visibility and Maintenance
+↑ Back to Table of Contents
+
+⸻
+
+Project Documentation
+
+The technical documentation for Laurelite Importation Hub is organised into ten chapters.
+
+Each chapter covers a specific part of the planning, architecture, implementation, deployment or maintenance process.
+
+Select a chapter to open its full documentation.
+
+Chapter	Topic	Documentation
+01	Project Overview	Read Chapter 01 →
+02	Business Requirements and Functional Features	Read Chapter 02 →
+03	System Architecture and Technology Stack	Read Chapter 03 →
+04	Frontend Architecture and Responsive Design	Read Chapter 04 →
+05	Backend Architecture and API Structure	Read Chapter 05 →
+06	Database Architecture and Data Models	Read Chapter 06 →
+07	Authentication, Authorisation and Security	Read Chapter 07 →
+08	Payments, Wallet System and Refund Management	Read Chapter 08 →
+09	Deployment, AWS Infrastructure and CI/CD	Read Chapter 09 →
+10	SEO, Search Visibility and Maintenance	Read Chapter 10 →
 
 Documentation Navigation
 
-Previous Chapter	Next Chapter
-Chapter 01	Chapter 02
-Chapter 02	Chapter 03
-Chapter 03	Chapter 04
-Chapter 04	Chapter 05
-Chapter 05	Chapter 06
-Chapter 06	Chapter 07
-Chapter 07	Chapter 08
-Chapter 08	Chapter 09
-Chapter 09	Chapter 10
+Navigate	Link
+Start documentation	Chapter 01 — Project Overview
+Explore the architecture	Chapter 03 — System Architecture
+Understand the backend	Chapter 05 — Backend Architecture
+Explore the database	Chapter 06 — Database Architecture
+Review payment implementation	Chapter 08 — Payments and Wallet
+Explore deployment	Chapter 09 — AWS Infrastructure
 
-Back to Table of Contents ↑
+↑ Back to Table of Contents
+
+⸻
 
 Future Development
 
-The platform is designed with room for further expansion.
+Laurelite Importation Hub is designed with room for further expansion.
 
 Some of the areas I intend to develop include:
 
-* A fully operational multi-vendor seller experience.
-* Seller registration, approval and management.
-* Seller dashboards and product management workflows.
+Multi-Vendor Marketplace
+
+* Fully operational seller experience.
+* Seller registration, verification and approval.
+* Seller dashboards.
+* Seller product management workflows.
+* Seller order and earnings management.
+
+China Sourcing and Preorder Marketplace
+
+One of the broader business goals behind Laurelite Importation Hub is to make shopping from China easier for Nigerians.
+
+The long-term vision includes:
+
 * Expanded China sourcing and preorder capabilities.
 * Integration with Nigerian preorder agents operating in China.
-* Further improvements to product discovery and marketplace operations.
+* Access to product sourcing opportunities at competitive prices.
+* A more convenient process for Nigerians who want to purchase products from Chinese marketplaces.
 
 These are future development areas, not features being presented as fully operational in the current release.
+
+↑ Back to Table of Contents
+
+⸻
 
 Live Application
 
 Explore the deployed application:
 
-https://lovedigitals.online
+<p align="center">
+  <a href="https://lovedigitals.online">
+    <strong>🌐 Visit Laurelite Importation Hub</strong>
+  </a>
+</p>
+
+Website: https://lovedigitals.online
+
+API: https://api.lovedigitals.online
+
+↑ Back to Table of Contents
+
+⸻
 
 Author’s Note
 
@@ -298,16 +469,22 @@ Building Laurelite Importation Hub has been a major part of my growth as a devel
 
 From designing the interface and building the backend to integrating payments, configuring AWS infrastructure, deploying the application and troubleshooting production issues, every stage taught me something new.
 
-It was not always easy, but I kept building, learning and improving.
+It was not always easy. There were challenges, debugging sessions, unexpected errors and moments when I had to go back, rethink and rebuild.
 
-This project is a practical demonstration of my experience across full-stack development, cloud engineering and DevOps.
+But I kept learning, improving and pushing forward until the idea became a live application.
+
+This project is a practical demonstration of my experience across full-stack development, backend engineering, cloud engineering and DevOps.
+
+And most importantly, it reminds me that I can take an idea, commit to it and build something real.
 
 ⸻
 
 <p align="center">
-  <strong>Laurelite Importation Hub</strong><br>
+  <strong>Laurelite Importation Hub</strong>
+</p>
+<p align="center">
   Built with determination, patience and plenty of debugging. 😂
 </p>
 <p align="center">
-  <a href="#table-of-contents">Back to Table of Contents ↑</a>
+  <a href="#table-of-contents">↑ Back to Top</a>
 </p>
