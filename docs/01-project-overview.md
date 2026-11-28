@@ -3,6 +3,9 @@ Chapter 1: Project Overview
 ← Back to Main README
 
 1.1 Introduction
+![Laurelite Homepage](Home.jpg.JPG)
+
+*Figure 1.1: Laurelite Importation Hub — Production Homepage.*
 
 Laurelite Importation Hub is a full-stack e-commerce platform I conceptualised, designed and developed to provide customers with a convenient and accessible online shopping experience.
 
@@ -15,6 +18,9 @@ The platform is deployed at https://lovedigitals.online.
 Figure 1.1: Laurelite Importation Hub — Production Homepage.
 
 1.2 Project Background
+
+
+*Figure 1.2: Laurelite Responsive Mobile Interface.*
 
 My motivation for building Laurelite Importation Hub came from wanting to create something beyond the typical e-commerce website.
 
@@ -31,6 +37,8 @@ My vision is to develop Laurelite Importation Hub into a comprehensive shopping 
 Beyond conventional retail, the broader business vision includes creating access to products sourced from China through Nigerian preorder agents already operating there, with the goal of making products accessible at competitive prices.
 
 1.4 Project Objectives
+
+![Laurelite Mobile Homepage](Mobile.jpg.JPG)
 
 The major objectives of the project include:
 
@@ -66,6 +74,10 @@ These areas represent the intended business direction, not a claim that every ma
 
 1.6 Target Users
 
+![Laurelite Admin Dashboard](Admin.jpg.JPG)
+
+*Figure 1.3: Laurelite Administrative Dashboard.*
+
 The platform is designed with the following user groups in mind:
 
 * Customers: People who want to discover products, shop online, make payments and manage their orders.
@@ -75,6 +87,10 @@ The platform is designed with the following user groups in mind:
 Figure 1.3: Laurelite Administrative Dashboard.
 
 1.7 Project Scope
+
+![Laurelite Shopping Cart](Cart.jpg.JPG)
+
+*Figure 1.4: Laurelite Shopping Cart and Checkout Entry Point.*
 
 The developed application includes:
 
