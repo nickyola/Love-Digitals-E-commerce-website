@@ -56,6 +56,11 @@ Customers can:
 * View product images, prices and available information.
 * Explore featured products.
 
+
+![Product Catalogue](Products.JPG)
+
+*Figure 2.1: Laurelite Product Catalogue and Featured Product Listings.*
+
 2.3.3 Shopping Cart
 
 The shopping cart allows customers to:
@@ -65,6 +70,10 @@ The shopping cart allows customers to:
 * Update product quantities.
 * Remove products.
 * Review cart totals before checkout.
+
+![Laurelite Shopping Cart](Cart.jpg.JPG)
+
+*Figure 2.2: Customer Shopping Cart and Order Summary.*
 
 2.3.4 Wishlist
 
@@ -137,10 +146,22 @@ Administrative product operations include:
 * Managing product availability.
 * Managing product categories.
 
+![Add Product Interface](Add-product.JPG)
+
+*Figure 2.3: Administrative Product Creation Interface.*
+
+![Category Management](Category.JPG)
+
+*Figure 2.4: Administrative Category Management Interface.*
+
+
 2.4.3 Customer Management
 
 Administrators can access customer management functionality and view relevant customer information.
 
+![Customer Directory](Customers.JPG)
+
+*Figure 2.5: Administrative Customer Directory.*
 2.4.4 Order Management
 
 The administrative system supports:
@@ -168,9 +189,17 @@ Administrative wallet functionality includes:
 
 The administrative system includes reporting functionality and activity records to support operational oversight.
 
+![Administrative Activity Logs](Activity.JPG)
+
+*Figure 2.6: Administrative Activity Logs and Operational Records.*
+
 2.4.8 Support and Store Settings
 
 Administrators can access customer support management and store configuration functionality.
+
+![Store Settings](Settings.JPG)
+
+*Figure 2.7: Administrative Store Settings and Configuration.*
 
 2.5 Seller and Multi-Vendor Requirements
 
@@ -252,4 +281,4 @@ They also provided a foundation for future development, particularly the expansi
 
 ⸻
 
-← Previous: Project Overview | Back to Main README | Next: System Architecture →
+← Previous: Project Overview | Back to Main README | Next: System Architecture
