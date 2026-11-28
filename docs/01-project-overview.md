@@ -12,6 +12,8 @@ I built the application with a focus on usability, responsiveness, functionality
 
 The platform is deployed at https://lovedigitals.online.
 
+Figure 1.1: Laurelite Importation Hub — Production Homepage.
+
 1.2 Project Background
 
 My motivation for building Laurelite Importation Hub came from wanting to create something beyond the typical e-commerce website.
@@ -42,6 +44,8 @@ The major objectives of the project include:
 * Deploying the application on AWS cloud infrastructure.
 * Creating a foundation that can support future marketplace expansion.
 
+Figure 1.2: Laurelite Responsive Mobile Interface.
+
 1.5 Business Model
 
 The business concept is built around three major areas:
@@ -68,6 +72,8 @@ The platform is designed with the following user groups in mind:
 * Administrators: People responsible for managing customers, products, orders, refunds and platform operations.
 * Future marketplace sellers: Independent vendors who may eventually manage their products and sales through the platform.
 
+Figure 1.3: Laurelite Administrative Dashboard.
+
 1.7 Project Scope
 
 The developed application includes:
@@ -84,6 +90,8 @@ The developed application includes:
 * Cloud deployment and production configuration.
 
 Future expansion includes a fully operational seller experience and expanded China sourcing and preorder workflows.
+
+Figure 1.4: Laurelite Shopping Cart and Checkout Entry Point.
 
 1.8 Development Approach
 
@@ -105,4 +113,4 @@ This documentation explains the technical decisions, architecture, implementatio
 
 ⸻
 
-← Back to Main README | Back to Table of Contents | Next: Business Requirements →
+← Back to Main README | Back to Table of Contents | Next: Business Requirements
